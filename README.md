@@ -10,18 +10,27 @@ A simple web app that recommends movies based on your selection using content-ba
 
 ## Setup
 
-1. **Clone the repository:**
+1. **Create and activate a virtual environment (recommended):**
+   ```bash
+   python -m venv venv
+   # On Windows
+   venv\Scripts\activate
+   # On macOS/Linux
+   source venv/bin/activate
+   ```
+
+2. **Clone the repository:**
    ```bash
    git clone https://github.com/sheikh-mohammad-rakib/movie-recommendation-system.git
    cd movie-recommendation-system
    ```
 
-2. **Install dependencies:**
+3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Run the app:**
+4. **Run the app:**
    ```bash
    streamlit run app.py
    ```
